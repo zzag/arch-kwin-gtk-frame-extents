@@ -1,15 +1,13 @@
-# KWin that can do _GTK_FRAME_EXTENTS
-
 ### How to install it
 
-KWin needs customized KWindowSystem, so build and install it first
+KWin needs custom KWindowSystem, so build and install it first
 
 ```sh
 cd kwindowsystem
 makepkg -i
 ```
 
-Once you've done that, build and install KWin. Be warned that compiling KWin
+Once you've done that, build and install KWin. Keep in mind that compiling KWin
 may take some time if your computer is not very powerful
 
 ```sh
