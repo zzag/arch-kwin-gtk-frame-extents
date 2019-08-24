@@ -19,11 +19,11 @@ makedepends=(extra-cmake-modules qt5-tools kdoctools)
 optdepends=('qt5-virtualkeyboard: virtual keyboard support for kwin-wayland')
 groups=(plasma)
 source=("https://download.kde.org/stable/plasma/$pkgver/$_pkgname-$pkgver.tar.xz"{,.sig}
-        0001-Implement-_GTK_FRAME_EXTENTS.patch)
+        0001-x11-Implement-_GTK_FRAME_EXTENTS.patch)
 install=$_pkgname.install
 sha256sums=('766ae9cec1535ab7a715c20d8ef1b409063be55bb8d8d8f593de9551ee12b01a'
             'SKIP'
-            'bf7b036db705b4fd3ec12cb4df6d17f5417523905cdd140437f2e02bea1cdcba')
+            'bf6fb212fa8af581e61187dc01ea81473950b98ac363ef1efdd69b40b4212122')
 validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr@jriddell.org>
               '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
               'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson <davidedmundson@kde.org>
