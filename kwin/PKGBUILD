@@ -5,7 +5,7 @@
 
 _pkgname=kwin
 pkgname=kwin-gtk-frame-extents
-pkgver=5.16.3
+pkgver=5.16.4
 pkgrel=1
 pkgdesc='An easy to use, but flexible, composited Window Manager'
 arch=(x86_64)
@@ -21,7 +21,7 @@ groups=(plasma)
 source=("https://download.kde.org/stable/plasma/$pkgver/$_pkgname-$pkgver.tar.xz"{,.sig}
         0001-Implement-_GTK_FRAME_EXTENTS.patch)
 install=$_pkgname.install
-sha256sums=('766ae9cec1535ab7a715c20d8ef1b409063be55bb8d8d8f593de9551ee12b01a'
+sha256sums=('71b96f1efef0b3f4974900373285a08d425a63628404fe9e89c27f61119383e6'
             'SKIP'
             'bf7b036db705b4fd3ec12cb4df6d17f5417523905cdd140437f2e02bea1cdcba')
 validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr@jriddell.org>
