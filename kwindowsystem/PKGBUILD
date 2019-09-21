@@ -5,7 +5,7 @@
 
 _pkgname=kwindowsystem
 pkgname=kwindowsystem-gtk-frame-extents
-pkgver=5.61.0
+pkgver=5.62.0
 pkgrel=1
 pkgdesc='Access to the windowing system'
 arch=(x86_64)
@@ -18,7 +18,7 @@ makedepends=(extra-cmake-modules qt5-tools doxygen)
 groups=(kf5)
 source=("https://download.kde.org/stable/frameworks/${pkgver%.*}/$_pkgname-$pkgver.tar.xz"{,.sig}
         0001-Implement-_GTK_FRAME_EXTENTS.patch)
-sha256sums=('17958b612e751e838aa7a0d4f8c7a8a8d83d3f4ace5498fe1f2b8650a2d8f984'
+sha256sums=('116d75216ea001b2fc8688a72bcc6105b0b0966a2c5a084497f3aef80d158a67'
             'SKIP'
             '86b0425591b893ebeca425e5a1011f0266f8f19e3650aa127c6bce49ced3b9f2')
 validpgpkeys=(53E6B47B45CEA3E0D5B7457758D0EE648A48B3BB) # David Faure <faure@kde.org>
