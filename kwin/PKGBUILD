@@ -22,7 +22,7 @@ source=("https://download.kde.org/stable/plasma/$pkgver/$_pkgname-$pkgver.tar.xz
 install=$_pkgname.install
 sha256sums=('987a6035b85497193996d3917421012ac16451d4c935e0d1fef014d8cfd57db8'
             'SKIP'
-            'fb1c41522081b4b4a500681e10968906fb10a79386c8079cdb85f09afe924c38')
+            'fadeb2d43b541dfedc161720d06b8c979fafc0bd39649f27cc9b5137f5e6d779')
 validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr@jriddell.org>
               '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
               'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson <davidedmundson@kde.org>
